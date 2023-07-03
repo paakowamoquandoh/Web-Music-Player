@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div className="relative flex">
       <Sidebar />
-      <div className="flex-1 flex flex-col bg-gradient-to-br from-black to-[rgb(27,27,29)]">
+      <div className="flex-1 flex flex-col bg-gradient-to-br from-black to-[rgb(78,78,92)]">
         <Searchbar />
 
         <div className="px-6 h-[calc(100vh-72px)] overflow-y-scroll hide-scrollbar flex xl:flex-row flex-col-reverse">
