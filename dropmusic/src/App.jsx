@@ -8,7 +8,7 @@ const App = () => {
   const { activeSong } = useSelector((state) => state.player);
 
   return (
-    <div className="relative flex App">
+    <div className="mt-20 mt relative flex App">
       <Sidebar />
       <div className="flex-1 flex flex-col bg-gradient-to-br from-black to-[rgb(34,50,66)]">
         <Searchbar />
